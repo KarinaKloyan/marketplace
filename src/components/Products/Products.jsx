@@ -3,6 +3,9 @@ import { products } from "../db/db";
 import ProductItem from "./ProductItem";
 
 function Products() {
+
+  console.log(products)
+
   return (
     <div className="container products-list">
       {products.map((product) => (
