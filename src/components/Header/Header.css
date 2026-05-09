@@ -1,0 +1,13 @@
+header {
+  width: 100%;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 8%);
+}
+
+.header-inner {
+  max-width: 1180px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

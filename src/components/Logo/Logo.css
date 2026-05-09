@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

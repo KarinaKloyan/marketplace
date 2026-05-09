@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+li:hover {
+  color: #007bff;
+  transform: translateY(-2px);
+}
