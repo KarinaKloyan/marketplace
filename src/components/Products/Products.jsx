@@ -1,14 +1,11 @@
 import "./Products.css";
-import { products } from "../db/db";
-import ProductItem from "./ProductItem";
+import ProductItem from "../ProductItem/ProductItem";
 
-function Products() {
-
-  console.log(products)
+function Products(props) {
 
   return (
     <div className="container products-list">
-      {products.map((product) => (
+      {props.products.map((product) => (
         <ProductItem
           image={product.image}
           title={product.title}

@@ -266,3 +266,17 @@ export let products = [
     },
   },
 ];
+
+export const navigation = [
+  { title: "Men's clothing", path: "/men" },
+  { title: "Women's clothing", path: "/women" },
+  { title: "Electronics", path: "/electronics" },
+  { title: "Jewerly", path: "/jewerlys" },
+];
+
+export const footer = {
+  title: "🛒 MyShop",
+  description: "Online shop for everyone",
+  contact: "Email: shop@mail.com",
+  phone: "Phone: +374 99 00 00 00",
+};

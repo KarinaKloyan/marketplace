@@ -8,7 +8,7 @@ function Header(props) {
     <header>
       <div className="header-inner">
         <Logo />
-        <Navigation />
+        <Navigation navigation={props.navigation}/>
         <Search />
       </div>
     </header>

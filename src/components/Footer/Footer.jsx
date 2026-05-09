@@ -1,12 +1,12 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer({ footer }) {
   return (
     <footer className="footer">
       <div className="footer-content container">
         <div>
-          <h3>🛒 MyShop</h3>
-          <p>Online shop for everyone</p>
+          <h3>{footer.title}</h3>
+          <p>{footer.description}</p>
         </div>
         <div>
           <h4>Our story</h4>
@@ -16,8 +16,8 @@ function Footer() {
         </div>
         <div>
           <h4>Contact</h4>
-          <p>Email: shop@mail.com</p>
-          <p>Phone: +374 99 00 00 00</p>
+          <p>{footer.contact}</p>
+          <p>{footer.phone}</p>
         </div>
         <div>
           <p>© 2026 MyShop</p>

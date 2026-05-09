@@ -1,15 +1,9 @@
 import "./Navigation.css";
 
-function Navigation() {
-  const navigation = [
-    { title: "Men's clothing", path: "/men" },
-    { title: "Women's clothing", path: "/women" },
-    { title: "Electronics", path: "/electronics" },
-    { title: "Jewerly", path: "/jewerlys" },
-  ];
+function Navigation(props) {
   return (
     <ul>
-      {navigation.map((nav) => (
+      {props.navigation.map((nav) => (
         <li>{nav.title}</li>
       ))}
     </ul>

@@ -3,12 +3,12 @@ import Products from "./components/Products/Products";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 
-function App() {
+function App({ navigation, products, footer }) {
   return (
     <>
-      <Header />
-      <Products />
-      <Footer />
+      <Header navigation={navigation} />
+      <Products products={products} />
+      <Footer footer={footer} />
     </>
   );
 }
